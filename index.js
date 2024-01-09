@@ -4,11 +4,11 @@ const app = express();
 
 // Define a route
 app.get('/', (req, res) => {
-  res.send('Hello, World changed');
+  res.send('Hello, World');
 });
 
 app.get('/user', (req, res) => {
-  res.send('Hello, user');
+  res.send('Hello, user1');
 });
 
 app.get('/admin', (req, res) => {
