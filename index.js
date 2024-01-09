@@ -7,6 +7,14 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
+app.get('/user', (req, res) => {
+  res.send('Hello, user');
+});
+
+app.get('/admin', (req, res) => {
+  res.send('Hello, admin');
+});
+
 // Start the server
 port = process.env.PORT || 3000
 app.listen(port, () => {
