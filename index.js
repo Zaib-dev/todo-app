@@ -4,15 +4,15 @@ const app = express();
 
 // Define a route
 app.get('/', (req, res) => {
-  res.send('Hello, World112');
+  res.send('Hello, World');
 });
 
 app.get('/user', (req, res) => {
-  res.send('Hello, user23');
+  res.send('Hello, user');
 });
 
 app.get('/admin', (req, res) => {
-  res.send('Hello, admin2');
+  res.send('Hello, admin');
 });
 
 // Start the server
